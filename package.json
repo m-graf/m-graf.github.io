@@ -7,7 +7,7 @@
     "build" : "webpack",
     "start": "webpack-dev-server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d m-graf.github.io"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/kern/kern.io/issues"
   },
-  "homepage": "https://m-graf.github.io",
+  "homepage": "https://m-graf.github.io/m-graf.github.io",
   "dependencies": {
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
