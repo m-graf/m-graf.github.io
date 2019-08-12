@@ -13,6 +13,7 @@
 <body>
 <div class="container">
     <header class="header">
+        <div class="logo"><img src="logo.png" alt="AK label on an espresso cup" /></div>
         <h1>
             <a href="/">
                 <span class="first-name">Michael</span>
@@ -20,7 +21,6 @@
             </a>
         </h1>
     </header>
-
     <main>
         <section id="currently">
             <h2>Currently</h2>
@@ -91,5 +91,15 @@
         Released under the <a href="https://github.com/kern/kern.io/blob/master/LICENSE">BSD 3-Clause license</a> &middot; <a href="https://github.com/kern/kern.io">Fork me</a>
     </footer>
 </div>
+
+<script>
+    var moreElem = document.getElementById("more")
+    var disclosureElem = document.getElementById("disclosure")
+
+    moreElem.addEventListener('click', function() {
+        moreElem.style.display = 'none'
+        disclosureElem.style.display = 'block'
+    })
+</script>
 </body>
 </html>
