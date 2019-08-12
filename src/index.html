@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://kern.io" />
+    <meta property="og:title" content="Alex Kern" />
+    <meta property="og:description" content="pixel pusher" />
+    <meta property="og:image" content="https://kern.io/files/facebook.png" />
+    <title>michael graf</title>
+</head>
 
+<body>
+<div class="container">
+    <header class="header">
+        <h1>
+            <a href="/">
+                <span class="first-name">Michael</span>
+                <span class="last-name">Graf</span>
+            </a>
+        </h1>
+    </header>
+    <main>
+        <section id="currently">
+            <h2>Currently</h2>
+            <ul>
+                <li>
+                    <a href="https://silvercar.com/" class="silvercar">Silvercar by Audi</a>, Senior Software Engineer
+                </li>
+                <li>
+                    Forbes 30 <span class="note">Under</span> 30
+                </li>
+            </ul>
+        </section>
+
+        <section id="previously">
+            <h2>
+                Previously
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://malauzai.com/" class="malauzai">Malauzai Software</a>, Software Engineer <div class="note">acquired by <a href="https://finastra.com" class="finastra">Finastra</a></div>
+                </li>
+                <li>
+                    <a href="https://passiveproducts.io" class="calhacks">Passive Products</a>, Co-Founder
+                </li>
+                <div id="more">See More &raquo;</div>
+                <div id="disclosure">
+                    <li>
+                        <a href="https://emeritus.com" class="apple">Emeritus</a>, Network Security Engineer <div class="note">acquired by <a href="https://brookdale.com" class="brookdale">Brookdale</a></div>
+                    </li>
+                    <li>
+                        <a href="http://mars.jpl.nasa.gov/msl/" class="jpl">NASA JPL</a>, Software Engineering
+                    </li>
+                    <li>
+                        <a href="http://www.alsop-louie.com/" class="alp">Alsop-Louie Partners</a>, Associate
+                    </li>
+                    <li>
+                        <a href="http://kairossociety.com/northern-california" class="kairos">Kairos Society</a>, Regional President
+                    </li>
+                    <li>
+                        <a href="http://www.washington.edu/" class="uw">University of Washington</a>, Computer Science
+                    </li>
+                </div>
+            </ul>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <p>
+                <a href="https://twitter.com/kernio" class="twitter">Twitter</a>,
+                <a href="https://github.com/m-graf" class="github">GitHub</a>,
+                <a href="https://www.linkedin.com/in/graf1/" class="linkedin">LinkedIn</a>,
+                <a href="https://medium.com/@graf_/has-recommended" class="medium">Medium</a>,
+                <a href="mailto:hello@gr.af" class="email">Email</a>
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>
+                <a href="https://file.pizza" class="filepizza">FilePizza</a>,
+                <a href="https://github.com/kern/ditto" class="ditto">Ditto</a>,
+                <a href="https://github.com/kern/hackbot" class="hackbot">Hackbot</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Released under the <a href="https://github.com/kern/kern.io/blob/master/LICENSE">BSD 3-Clause license</a> &middot; <a href="https://github.com/kern/kern.io">Fork me</a>
+    </footer>
+</div>
+
+<script>
+    var moreElem = document.getElementById("more")
+    var disclosureElem = document.getElementById("disclosure")
+
+    moreElem.addEventListener('click', function() {
+        moreElem.style.display = 'none'
+        disclosureElem.style.display = 'block'
+    })
+</script>
+</body>
+</html>
